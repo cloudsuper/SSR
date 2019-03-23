@@ -10,7 +10,7 @@ export PATH
 #	Blog: qzone.qq.com/2287560731
 #=================================================
 
-sh_ver="2.0.37"
+sh_ver="6.6.6"
 filepath=$(cd "$(dirname "$0")"; pwd)
 file=$(echo -e "${filepath}"|awk -F "$0" '{print $1}')
 ssr_folder="/usr/local/shadowsocksr"
